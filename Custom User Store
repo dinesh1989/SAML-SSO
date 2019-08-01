@@ -1,5 +1,5 @@
-Please refer xml to create user store after copying custom user store jar file. This jar file will competible both APIM 1.10 & APIM 2.1 
-because it created based on IDS 5.1.
+Please refer xml to create user store after copying custom user store jar file. com.wso2.carbon.custom.user.store.manager_1.0.0.jar file 
+will competible APIM 1.10 & com.wso2.carbon.custom.user.store.manager_2.0.0.jar APIM 2.1  xml file will  are same both servers.
 
 <?xml version="1.0" encoding="UTF-8"?>
 <UserStoreManager class="com.wso2.carbon.custom.user.store.manager.CustomUserStoreManager">
