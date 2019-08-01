@@ -1,0 +1,2 @@
+Wso2 APIM 1.10 also remain ADFS single sign on Persistance session create issue. Please upload org.wso2.carbon.identity.application.authentication.framework_5.0.7.jar
+file to /home/devvmadmin/APIM110Working/wso2am-1.10.0/repository/components/plugins folder & restart the server.
