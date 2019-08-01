@@ -1,0 +1,12 @@
+Invalid column name issue
+
+IDS & APIM Point same DB
+
+OASYS DEV DB Scripts files can be seen scripts folder
+
+You have to ALTER "IDN_OAUTH2_ACCESS_TOKEN" Table 
+ADD Following Column 
+
+TOKEN_SCOPE VARCHAR(25)
+
+Copy org.wso2.carbon.identity.oauth_5.0.7.jar file to /home/devvmadmin/APIM110Working/wso2am-1.10.0/repository/components/plugins folder.
