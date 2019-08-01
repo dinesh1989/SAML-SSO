@@ -1,0 +1,18 @@
+Please refer xml to create user store after copying custom user store jar file. This jar file will competible both APIM 1.10 & APIM 2.1 
+because it created based on IDS 5.1.
+
+<?xml version="1.0" encoding="UTF-8"?>
+<UserStoreManager class="com.wso2.carbon.custom.user.store.manager.CustomUserStoreManager">
+   <Property name="driverName">com.microsoft.sqlserver.jdbc.SQLServerDriver</Property>
+   <Property name="url">jdbc:sqlserver://oasysportal-dev.database.windows.net:1433;database=OASys_DEV_GlobalServiceDesk;socketTimeout=0</Property>
+   <Property name="userName">OASYsDEVUsr</Property>
+   <Property name="password">0a5ys@usr</Property>
+   <Property name="Disabled">false</Property>
+   <Property name="ReadOnly">true</Property>
+   <Property name="SCIMEnabled">false</Property>
+   <Property name="SelectUserSQL">SELECT * FROM VIEW_USERSTORE WHERE USER_NAME=?</Property>
+   <Property name="UserFilterSQL">SELECT USER_NAME FROM VIEW_USERSTORE WHERE USER_NAME LIKE ? ORDER BY USER_NAME</Property>
+   <Property name="IsUserExistingSQL">SELECT USER_NAME FROM VIEW_USERSTORE WHERE USER_NAME=? </Property>
+   <Property name="DomainName">oasys</Property>
+   <Property name="Description"/>
+</UserStoreManager>
