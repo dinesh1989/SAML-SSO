@@ -9,4 +9,4 @@ ADD Following Column
 
 TOKEN_SCOPE VARCHAR(25)
 
-Copy org.wso2.carbon.identity.oauth_5.0.7.jar file to /home/devvmadmin/APIM110Working/wso2am-1.10.0/repository/components/plugins folder.
+Copy org.wso2.carbon.identity.oauth_5.0.7.jar & org.wso2.carbon.idp.mgt_5.0.7.jar file to /home/devvmadmin/APIM110Working/wso2am-1.10.0/repository/components/plugins folder.
